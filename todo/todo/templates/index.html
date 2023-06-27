@@ -41,7 +41,7 @@
         <tbody>
             {% for i in alltodos %}
             <tr>
-                <th scope="row">{{i.sno}}</th>
+                <th scope="row">{{forloop.counter}}</th>
                 <td>{{i.title}}</td>
                 <td>{{i.desc}}</td>
                 <td>
